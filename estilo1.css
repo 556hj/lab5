@@ -1,0 +1,28 @@
+/* Fondo general con gradiente femenino */
+body {
+  background: linear-gradient(to right, #ffe0f0, #fce4ff);
+  font-family: 'Segoe UI', sans-serif;
+  color: #6a1b9a;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+/* Encabezado principal */
+h2 {
+  font-size: 2.5rem;
+  color: #d81b60;
+  margin-top: 40px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #fff;
+}
+
+/* Estilo para el carrusel */
+#carouselExampleControls {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff0f5;
+  box-shadow: 0 8px 20px rgba(0,
+

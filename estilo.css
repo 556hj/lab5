@@ -1,0 +1,54 @@
+/* Fondo femenino con degradado suave */
+body {
+  background: linear-gradient(to right, #ffe0ec, #fce4ff);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Estilo general para los botones */
+button {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 15px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+/* Efecto al pasar el mouse: solo cambia ligeramente el color */
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+/* Colores llamativos y femeninos para cada botón */
+.btn-outline-primary {
+  background-color: #ec407a;   /* Rosa fuerte */
+  border-color: #ec407a;
+}
+
+.btn-outline-secondary {
+  background-color: #ba68c8;   /* Lila intenso */
+  border-color: #ba68c8;
+}
+
+.btn-outline-success {
+  background-color: #f48fb1;   /* Rosa pastel */
+  border-color: #f48fb1;
+}
+
+.btn-outline-danger {
+  background-color: #e57373;   /* Coral */
+  border-color: #e57373;
+}
+
+.btn-outline-warning {
+  background-color: #ffd54f;   /* Amarillo vibrante */
+  color: #333;
+  border-color: #ffd54f;
+}
